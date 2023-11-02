@@ -1,0 +1,59 @@
+.main{
+  position: relative;
+}
+.main-ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main1{
+  padding: 10px;
+  color: white;
+  max-width: 100%;
+  background-color: #e86f00;
+}
+
+.main2{
+  padding: 10px;
+  color: white;
+  max-width: 100%;
+  background-color: #ff7a00;
+
+}
+.main3{
+  padding: 10px;
+  color: white;
+  max-width: 100%;
+  background-color: #fd8c24;
+}
+@media (max-width: 555px){
+  .main{
+    font-size: 15px;
+  }
+  .main1{
+    padding: 4px;
+  }
+  
+  .main2{
+    padding: 4px;
+  }
+  .main3{
+    padding: 4px;
+  }
+}
+@media (max-width: 400px){
+  .main{
+    font-size: 8px;
+  }
+  .main1{
+    padding: 2px;
+  }
+  
+  .main2{
+    padding: 2px;
+  }
+  .main3{
+    padding: 2px;
+  }
+
+}

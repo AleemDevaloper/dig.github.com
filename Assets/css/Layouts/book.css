@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../../fonts/Poppins/Poppins-Medium.ttf');
+  }
+  @font-face {
+    font-family: Lexend_Exa;
+    src: url('../../fonts/Lexend_Exa/static/LexendExa-Medium.ttf');
+  }
+
+.book1{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.book-text{
+    margin-left: 5rem;
+}
+.book-h1{
+    font-size: 48px;
+    color: #ffc700;
+    font-weight: 400;
+    font-family: 'Lexend_Exa';
+}
+.book-p{
+    font-size: 20px;
+color: #d8d8d8;
+font-weight: 400;
+font-family: 'Lexend_Exa';
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    border: 3px solid #d8d8d8;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+@media (max-width: 992px){
+.book{
+    flex-direction: column;
+}
+.box1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-text{
+    margin-left: 0rem;
+}
+.box{
+    width: 100%;
+}
+
+}

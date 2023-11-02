@@ -1,0 +1,23 @@
+
+  @font-face {
+    font-family: Lexend_Exa;
+    src: url('../../fonts/Lexend_Exa/static/LexendExa-Medium.ttf');
+  }
+
+.documentries{
+    text-align: center;
+    background-color: black;
+    color: #ffc700;
+    font-weight: 400;
+    font-family: 'Lexend_Exa';
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.doc-text h1{
+  font-size: 60px;
+}
+.doc-img{
+  max-width: 50%;
+}
